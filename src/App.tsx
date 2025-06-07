@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { useTheme } from './hooks/useTheme'
 import { useAlgorithmVisualization } from './hooks/useAlgorithmVisualization'
 import { ArrayVisualizer } from './components/ArrayVisualizer'

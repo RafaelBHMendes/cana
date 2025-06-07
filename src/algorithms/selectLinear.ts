@@ -127,7 +127,6 @@ export class SelectLinearVisualizer {
     }
 
     private findMedianOfMedians(array: number[], left: number, right: number): number {
-        const n = right - left + 1;
         const medians: number[] = [];
 
         // Dividir em grupos de 5 e encontrar mediana de cada grupo
